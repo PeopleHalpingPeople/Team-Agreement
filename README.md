@@ -1,5 +1,12 @@
 # Team-Agreement
 
+## Project Team Members
+
+- Jessi Velazquez
+- Nicki Baldwin
+- Simone Odegard
+- Jason Taisey
+
 ## Cooperation Plan
 
 Every person on your team is an asset. This is your chance to discover the hidden strengths and areas for growth for each team member.
@@ -123,10 +130,3 @@ Describe at least:
 
 - How will you communicate that it’s time to merge?
   - Either slack the team or we likely will be in Remo
-
-## Project Team Members
-
-- Jessi Velazquez
-- Nici Baldwin
-- Simone Odegard
-- Jason Taisey
