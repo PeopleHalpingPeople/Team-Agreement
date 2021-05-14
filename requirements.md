@@ -110,3 +110,7 @@ You MUST describe what the non-functional requirement is and how it will be impl
 # Data Modeling Diagram
 
 ![Link](Assets/Domain_Modeling_1.jpg)
+
+# Wireframe
+
+![Link](Assets/Wireframe.jpg)
