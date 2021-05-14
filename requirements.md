@@ -16,7 +16,7 @@ Why should we care about your product?
 
 **IN - What will your product do**
 
-- There needs to a user Authorization
+- There needs to be user Authorization
 
 - There needs to be channels users can subscribe to
 
@@ -54,31 +54,51 @@ Why should we care about your product?
 
 - More channels
 
-- 
+- Icons for professional certifications (licensed therapist, licensed electricians, etc) vs regular people/peers
 
-Stretch
-What stretch goals are you going to aim for?
 
-Functional Requirements
+# Functional Requirements
+
 List the functionality of your product. This will consist of tasks such as the following:
 
-An admin can create and delete user accounts
-A user can update their profile information
-A user can search all of the products in the inventory
-Data Flow
-Describe the flow of data in your application. Write out what happens from the time the user begins using the app to the time the user is done with the app. Think about the “Happy Path” of the application. Describe through visuals and text what requests are made, and what data is processed, in addition to any other details about how the user moves through the site.
+Any user can login
 
-Non-Functional Requirements (301 & 401 only)
-Non-functional requirements are requirements that are not directly related to the functionality of the application but still important to the app.
+An admin can create a channel
 
-Examples include:
+A non admin can view channels and subscribe to them
 
-Security
-Usability
-Testability
-etc….
-Pick 2 non-functional requirements and describe their functionality in your application.
+A user can send an SNS message to a channel
 
-If you are stuck on what non-functional requirements are, do a quick online search and do some research. Write a minimum of 3-5 sentences to describe how the non-functional requirements fits into your app.
+Another user can see and respond to the original messag as a DM
+
+# Data Flow
+
+A user will log in -> Browse available channels -> sign up for channels -> see messages in channel -> send messages to channel -> AND/OR respond to messages in a DM
+
+# Non-Functional Requirements (301 & 401 only)
+
+Non-functional requirements are requirements that are not directly related to the functionality of the application but still important to the app:
+
+- Legal issues
+
+    - What happens if there is an issue with the individuals who meet up? How can the app make it clear we are not responsible?
+
+    - How will be make it clear that this is "peer-based", and the individuals on the site are not necessarily professionals
+
+- Extensibility:
+
+  - User and channel setup are replicatable - easy to copy the functionality of one channel and implement in a new channel. We will use AWS SDK to add new channels with preset properties.
+
+- Modifiability:
+
+  - Code is clean, easy to follow, and well documented.
+
+- Security:
+
+  - We will use OAuth for user authorization
+
+- Testibility:
+
+  - Set up a test that ensures messages are secure and being received
 
 You MUST describe what the non-functional requirement is and how it will be implemented. Simply saying “Our project will be testable for testibility” is NOT acceptable. Tell us how, why, and what.
