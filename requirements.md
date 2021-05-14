@@ -102,3 +102,11 @@ Non-functional requirements are requirements that are not directly related to th
   - Set up a test that ensures messages are secure and being received
 
 You MUST describe what the non-functional requirement is and how it will be implemented. Simply saying “Our project will be testable for testibility” is NOT acceptable. Tell us how, why, and what.
+
+# Entity Relationship Diagram
+
+![Link](Assets/Entity_Relationship_Diagram.jpg)
+
+# Data Modeling Diagram
+
+![Link](Assets/Domain_Modeling_1.jpg)
