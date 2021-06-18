@@ -133,4 +133,7 @@ Describe at least:
 
 ## UML WireFrame
 
-![Link](Assets/UML_Front_End.jpg)
+![Link](Assets/UML_FrontEnd.png)
+
+[Link to Miro Board for UML](https://miro.com/app/board/o9J_l-EDCUc=/)
+
