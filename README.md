@@ -130,3 +130,7 @@ Describe at least:
 
 - How will you communicate that it’s time to merge?
   - Either slack the team or we likely will be in Remo
+
+## UML WireFrame
+
+![Link](Assets/UML_Front_End.jpg)
