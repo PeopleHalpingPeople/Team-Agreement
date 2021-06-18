@@ -137,3 +137,8 @@ Describe at least:
 
 [Link to Miro Board for UML](https://miro.com/app/board/o9J_l-EDCUc=/)
 
+## Relationship Entity Diagram
+
+![Link](Assets/Relationship_Entity_Diagram.jpg)
+
+[Link to Miro Board for Relationship Diagram](https://miro.com/app/board/o9J_l-LE2QA=/)
